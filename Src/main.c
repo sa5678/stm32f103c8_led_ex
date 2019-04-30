@@ -103,11 +103,11 @@ int main(void)
   {
 	  if((HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_0)) == 0)
 	  {
-		  HAL_Delay(200);
+		  HAL_Delay(500);
 	  }
 	  else if((HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_1)) == 0)
 	  {
-		  HAL_Delay(100);
+		  HAL_Delay(200);
 	  }
 	  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
 
